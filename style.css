@@ -1,0 +1,17 @@
+.grid {
+    width: 10px;
+    height: 10px;
+    margin-left: -1px;
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin-bottom: -9px;
+
+   
+}
+
