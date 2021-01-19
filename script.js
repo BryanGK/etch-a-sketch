@@ -1,8 +1,5 @@
 const container = document.querySelector('#container');
 
-
-
-
 function makeGrid(size) {
     for (let r = 1; r <= size; r++) {
         const row = document.createElement('div');
@@ -18,17 +15,10 @@ function makeGrid(size) {
     }
 }
 
-
-
-// function setGridSize(size) {
-//     container.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
-// }
-
-// setGridSize(5);
 makeGrid(20);
 
-const pixel = document.querySelectorAll('div');
-
-pixel.addEventListener('click', () => {
-    pixel.forEach
+const pixel = document.querySelectorAll('.grid').forEach(pixel => {
+    pixel.addEventListener('mouseover', () => {
+        pixel.style.background = "black";
+    });
 });
