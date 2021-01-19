@@ -1,7 +1,8 @@
+
+
 .grid {
     width: 20px;
     height: 20px;
-    margin-left: -1px;
     display: inline-block;
 }
 
@@ -9,18 +10,19 @@
     box-sizing: border-box;
 }
 
-.row {
-    margin-bottom: -5px;
-
-   
-}
-
 #container {
-    width: 400px;
-    height: 400px;
+    width: 404px;
+    height: 404px;
+    line-height: 0px;
+    border: 2px solid red;
+    margin: 0 auto;
 }
 
 .hover {
     background-color: black;
-} 
+}
+
+.control {
+    margin-bottom: 10px; 
+}
 
